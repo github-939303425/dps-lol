@@ -1,0 +1,43 @@
+.clearfix:after,.clearfix:before{
+  content: "";
+  display: block;
+  clear: both;
+}
+a:hover{
+    color: green;
+  }
+  body{
+    flex-direction: column;
+  }
+  body,main{
+    display: flex;
+  }
+
+  header{
+    padding: 20px 0;
+    height: 80px;
+  }
+  main{
+    flex: auto;
+  }
+  aside{
+    flex: 1;
+    padding: 50px 10px;
+    border: 2px solid chocolate;
+  }
+  aside ul li a{
+    font-size: 20px;
+  }
+  article{
+    border: 2px solid skyblue;
+    flex: 3;
+  }
+  a{
+    text-decoration: none;
+  }
+span{
+  padding-left:2em;
+}
+  .article-image{
+    float: left;
+}
